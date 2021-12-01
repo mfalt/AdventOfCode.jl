@@ -1,4 +1,4 @@
-using DelimitedFiles, BenchmarkTools, Printf
+using BenchmarkTools, Printf
 
 # Parse no-op
 Base.parse(::Type{T}, v::T) where T = v
